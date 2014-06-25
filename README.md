@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 CakePHP
 =======
 
@@ -46,5 +46,4 @@ Get Support!
 skull
 =====
 
-aplikasi sekolah sederhana
->>>>>>> 99f2c5718d82b1f63af5d185b1a7413695fe074f
+aplikasi sekolah sederhana dengan cakephp
