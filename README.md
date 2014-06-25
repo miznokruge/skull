@@ -47,3 +47,10 @@ skull
 =====
 
 aplikasi sekolah sederhana dengan cakephp
+
+
+aplikasi ini dibuat dengan :
+
+cake bake model all
+cake bake controller all
+cake bake view all
