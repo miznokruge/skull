@@ -1,5 +1,6 @@
 <div class="nilais index">
-    <h2><?php echo __('Nilais'); ?></h2>
+    <h2 style="width:300px; float:left;"><?php echo __('Nilais'); ?></h2>
+	<?php echo $this->Html->link('Cetak',array('controller'=>'vnilais','action'=>'cetak'),array('class'=>'','style'=>' style="width:300px; float:right;"'));?>
     <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>

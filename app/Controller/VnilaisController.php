@@ -101,4 +101,13 @@ class VnilaisController extends AppController {
 		}
 		return $this->redirect(array('action' => 'index'));
 	}
+	
+	public function cetak() {
+        $this->Vnilai->recursive = 2;
+        $data = $this->Vnilai->find("all");
+        $this->set(compact("data"));
+        $this->layout = 'pdf';
+        $this->response->type('application/pdf');
+        $this->render('/docs/nilai');
+    }
 }
